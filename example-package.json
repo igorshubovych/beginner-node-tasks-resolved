@@ -1,0 +1,18 @@
+{
+  "name": "beginner-node-projects",
+  "version": "1.0.0",
+  "description": "Example package.json",
+  "scripts": {
+    "style": "jscs *.js **/*.js",
+    "lint": "eslint *.js **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "npm run style && npm run lint"
+  },
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "husky": "^0.11.3",
+    "jscs": "^2.11.0"
+  }
+}

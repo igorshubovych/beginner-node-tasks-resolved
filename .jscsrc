@@ -1,0 +1,38 @@
+{
+  "excludeFiles": [
+    "node_modules/**"
+  ],
+  "preset": "google",
+  "jsDoc": null,
+  "maxErrors": 50,
+  "validateLineBreaks": "LF",
+  "validateIndentation": 2,
+  "maximumLineLength": 120,
+  "disallowMultipleLineBreaks": null,
+  "requireDotNotation": null,
+  "requireCapitalizedConstructors": null,
+  "requireCamelCaseOrUpperCaseIdentifiers": null,
+  "disallowMultipleVarDecl": null,
+  "requirePaddingNewLinesAfterUseStrict": true,
+  "disallowSpacesInsideParentheses": null,
+  "disallowSpacesInsideArrayBrackets": null,
+  "disallowSpacesInsideObjectBrackets": null,
+  "disallowSpacesInFunctionExpression": null,
+  "disallowSpacesInFunctionDeclaration": null,
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInNamedFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunction": {
+    "beforeOpeningCurlyBrace": true
+  }
+}
