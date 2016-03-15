@@ -1,9 +1,9 @@
 {
-  "name": "beginner-node-projects",
+  "name": "beginner-node-tasks-resolved",
   "version": "1.0.0",
-  "description": "Example package.json",
+  "description": "Beginner's NodeJS tasks resolved",
   "scripts": {
-    "style": "jscs *.js **/*.js",
+    "style": "jscs 01-nodejs/ 02-web/ 03-database/",
     "lint": "eslint *.js **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "npm run style && npm run lint"
@@ -14,5 +14,7 @@
     "eslint": "^2.3.0",
     "husky": "^0.11.3",
     "jscs": "^2.11.0"
+  },
+  "dependencies": {
   }
 }
