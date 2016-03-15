@@ -16,5 +16,6 @@
     "jscs": "^2.11.0"
   },
   "dependencies": {
+    "faker": "~3.0.1"
   }
 }
