@@ -8,7 +8,6 @@
 ## Read big file
 
 1. Read big text file (more than 1 Mb)
-1. Accumulate its content in one variable
 1. Calculate amount of words in it
 1. Note: use regular expessions
 
