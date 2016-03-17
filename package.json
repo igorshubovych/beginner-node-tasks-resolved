@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Beginner's NodeJS tasks resolved",
   "scripts": {
-    "style": "jscs 01-nodejs/ 02-web/ 03-database/",
+    "style": "jscs nodejs/ web/ database/",
     "lint": "eslint *.js **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "npm run style && npm run lint"
