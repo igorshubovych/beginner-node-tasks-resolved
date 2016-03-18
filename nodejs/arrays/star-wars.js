@@ -1,9 +1,6 @@
 'use strict';
 
-const fs = require('fs');
-const moviesFilename = 'movies.json';
-
-let starWarsMovies = JSON.parse(fs.readFileSync(moviesFilename));
+const starWarsMovies = require('./movies.json');
 
 let processedMovies = titlesAndRating(sortByRating(starWarsMovies));
 
