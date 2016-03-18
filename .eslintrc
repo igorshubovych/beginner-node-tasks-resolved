@@ -47,7 +47,7 @@
         "no-lone-blocks": 2,
         "no-loop-func": 2,
         "no-magic-numbers": [2, {
-          "ignore": [0, 1, 2],
+          "ignore": [0, 1, 2, 60],
           "ignoreArrayIndexes": true,
           "detectObjects": true
         }],
