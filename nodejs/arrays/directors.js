@@ -6,6 +6,7 @@ const _ = require('lodash');
 let directors =
   _(starWarsMovies)
   .map('Director')
+  .uniq()
   .value();
 
 console.log('Star Wars movie directos:');
