@@ -24,8 +24,13 @@ Issue.prototype.unresolve = function() {
   return this;
 };
 
-Issue.prototype.assign = function(newUser) {
-  this.assignee = newUser;
+Issue.prototype.assign = function(newAssignee) {
+  let currentAssignee = this.assignee;
+  this.assignee = newAssignee;
+  if (currentAssignee) {
+    currentAssignee.unassign(this);
+  }
+  newAssignee.assign(this);
   this.updatedAt = Date.now();
   return this;
 };

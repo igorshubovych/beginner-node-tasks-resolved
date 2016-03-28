@@ -66,6 +66,7 @@ function generateIssue(project, user) {
     project: project,
     resolved: false
   });
+  user.assign(issue);
   return issue;
 }
 
