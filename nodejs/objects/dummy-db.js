@@ -64,6 +64,7 @@ function generateIssue(project, user) {
     longDescription: faker.lorem.sentences(3),
     assignee: user,
     project: project,
+    createdAt: faker.date.past(3), // Random dates for last 3 years
     resolved: false
   });
   user.assign(issue);
